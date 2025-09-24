@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "biomodelos@humboldt.org.co"
+  default from: "daniel.ortiz@ieb-chile.cl"
   layout 'mailer'
 end

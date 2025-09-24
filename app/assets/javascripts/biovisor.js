@@ -73,7 +73,7 @@ var _BioModelosVisorModule = function() {
 	var hiddenFields = ["stateProvince", "county", "taxID", "species", "reported", "updated", "environmentalOutlier"];
 
 	var init = function(){
-		var latlng = new L.LatLng(4, -72),
+		var latlng = new L.LatLng(-33.45, -70.66),
       zoom = 6,
       mZoom = 2,
       mxZoom = 16;

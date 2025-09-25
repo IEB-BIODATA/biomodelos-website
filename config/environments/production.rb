@@ -67,13 +67,13 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.smtp_settings = {
-      :address => "smtp.gmail.com",
-      :port => 587,
-      :authentication => "plain",
-      :enable_starttls_auto => true,
-      :user_name => Rails.application.credentials.dig(:mail_server, :GMAIL_USERNAME),
-      :password => Rails.application.credentials.dig(:mail_server, :GMAIL_PASSWORD)
-      
+    address:              "email-smtp.sa-east-1.amazonaws.com",
+    port:                 587,
+    user_name:            "AKIAZTM4FNZP2J45EKXJ",
+    password:             "BN9VCnml9w+kU4ld0Uv94cmv01xd6v3vX9gfQ3T1dlWz",
+    authentication:       :login,                             # :login o :plain funcionan con SES
+    enable_starttls_auto: true,
+    domain:               "herbariodigital.cl"
   }
   config.action_mailer.default_url_options = { :host => 'biomodelos.humboldt.org.co' }
 

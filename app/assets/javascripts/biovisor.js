@@ -120,13 +120,13 @@ var _BioModelosVisorModule = function() {
     };
 
     var overlays = {
-      "Páramos (2016)": paramos_fondo_2016,
+      /*"Páramos (2016)": paramos_fondo_2016,
       "Ecosistemas generales (Etter)" : ecosistemas_etter,
       "Bosque seco tropical" : bosque_seco,
-      "Zonificación Hidrográfica 2013 (IDEAM)" : zon_hidrografica
+      "Zonificación Hidrográfica 2013 (IDEAM)" : zon_hidrografica*/
     };
 
-    map = L.map('map', {crs: L.CRS.EPSG4326}).setView(latlng, zoom);
+    map = L.map('map').setView(latlng, zoom);
 
     map.addLayer(googleTerrain);
 
@@ -648,7 +648,7 @@ var _BioModelosVisorModule = function() {
    * @param {Object} modelOptions options for the model
    */
 	var processModel = function(modelOptions) {;
-  var imageBounds = [[13,-60],[-14, -83]];
+  var imageBounds = [[-17.5, -75.0], [-56.0, -66.0]];
 		var layer;
 		if (modelOptions.type === 'file') {
       if (modelOptions.extentSize === 'large') {

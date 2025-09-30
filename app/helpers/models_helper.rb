@@ -61,7 +61,7 @@ module ModelsHelper
 		elsif model.level == 2
 			style = "level2"
 		else
-			style = "raster"
+			style = "binario"
 		end
 		return {
 			"type" => "wmsLayer",

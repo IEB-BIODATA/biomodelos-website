@@ -3,11 +3,11 @@ info:
   title: API de BioModelos
   version: 2.0.0
   description: |
-    ¡Bienvenidos a la API de Biomodelos! Esta API ha sido diseñada para brindar acceso fácil y rápido a valiosa información sobre la biodiversidad de Colombia. Ofrecemos a los usuarios una serie de endpoints para acceder a diferentes servicios relacionados con BioModelos, y la estaremos actualizando y expandiendo a medida que desarrollamos nuevos servicios y funcionalidades.
+    ¡Bienvenidos a la API de Biomodelos! Esta API ha sido diseñada para brindar acceso fácil y rápido a valiosa información sobre la biodiversidad de Chile. Ofrecemos a los usuarios una serie de endpoints para acceder a diferentes servicios relacionados con BioModelos, y la estaremos actualizando y expandiendo a medida que desarrollamos nuevos servicios y funcionalidades.
 
-    La disponibilidad de esta API se basa en nuestra convicción de que el acceso a la información y la colaboración son fundamentales para la investigación y conservación de la biodiversidad. Al ofrecer esta interfaz de programación de aplicaciones (API), buscamos facilitar el acceso a los datos y servicios relacionados con BioModelos, fomentando la participación activa de la comunidad científica y usuarios interesados en la biodiversidad de Colombia.
+    La disponibilidad de esta API se basa en nuestra convicción de que el acceso a la información y la colaboración son fundamentales para la investigación y conservación de la biodiversidad. Al ofrecer esta interfaz de programación de aplicaciones (API), buscamos facilitar el acceso a los datos y servicios relacionados con BioModelos, fomentando la participación activa de la comunidad científica y usuarios interesados en la biodiversidad de Chile.
 
-    El primer paso para usar nuestra API es solicitar una api-key. Para obtenerla, por favor escriba a biomodelos@humboldt.org.co donde le explicaremos los pasos para obtenerla. Una vez que tenga su api-key, podrá utilizar todos los servicios que ofrece nuestra API. Recuerde revisar la documentación de cada endpoint, accesible de manera rápida a través del menú de la izquierda.
+    El primer paso para usar nuestra API es solicitar una api-key. Para obtenerla, por favor escriba a info.biodata@ieb-chile.cl donde le explicaremos los pasos para obtenerla. Una vez que tenga su api-key, podrá utilizar todos los servicios que ofrece nuestra API. Recuerde revisar la documentación de cada endpoint, accesible de manera rápida a través del menú de la izquierda.
 servers:
   - url: /v2
 paths:
@@ -123,7 +123,7 @@ paths:
                   example: cc-zero
                 atlas_agreement:
                   type: boolean
-                  description: "Aceptación de la publicación del modelo en el Atlas de Biodiversidad de Colombia (más información: http://biomodelos.humboldt.org.co/publicacion.pdf)"
+                  description: "Aceptación de la publicación del modelo en el Atlas de Biodiversidad de Colombia (más información: http://biomodelos.ieb-chile.cl/publicacion.pdf)"
                   example: true
                 model:
                   type: string

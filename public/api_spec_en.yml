@@ -2,11 +2,11 @@ openapi: 3.1.0
 info:
   title: BioModelos API
   description: |
-    Welcome to the BioModelos API! This API has been designed to provide easy and fast access to valuable information about the biodiversity of Colombia. We offer users a series of endpoints to access different services related to BioModelos, and we will be updating and expanding it as we develop new services and functionalities.
+    Welcome to the BioModelos API! This API has been designed to provide easy and fast access to valuable information about the biodiversity of Chile. We offer users a series of endpoints to access different services related to BioModelos, and we will be updating and expanding it as we develop new services and functionalities.
 
-    The availability of this API is based on our conviction that access to information and collaboration are fundamental for biodiversity research and conservation. By offering this Application Programming Interface (API), we aim to facilitate access to data and services related to BioModelos, encouraging the active participation of the scientific community and users interested in Colombia's biodiversity.
+    The availability of this API is based on our conviction that access to information and collaboration are fundamental for biodiversity research and conservation. By offering this Application Programming Interface (API), we aim to facilitate access to data and services related to BioModelos, encouraging the active participation of the scientific community and users interested in Chile's biodiversity.
 
-    The first step to use our API is to request an api-key. To obtain it, please write to biomodelos@humboldt.org.co where steps to get it would be explained. Once you have your api-key, you can use all the services that our API offers. Remember to review the documentation for each endpoint, quickly accessible through the left-hand menu.
+    The first step to use our API is to request an api-key. To obtain it, please write to info.biodata@ieb-chile.cl where steps to get it would be explained. Once you have your api-key, you can use all the services that our API offers. Remember to review the documentation for each endpoint, quickly accessible through the left-hand menu.
   version: 2.0.0
 servers:
   - url: /v2

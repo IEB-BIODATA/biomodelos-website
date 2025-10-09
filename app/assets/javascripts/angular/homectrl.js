@@ -3,9 +3,12 @@ angular.module('biomodelos')
     var vm = this
 
     var slides = [
-       "url(/assets/bg4.jpg)",
-       "url(/assets/bg2.jpg)",
-       "url(/assets/bg7.jpg)"
+       "url(/assets/background_01.jpg)",
+       "url(/assets/background_02.jpg)",
+       "url(/assets/background_03.jpg)",
+       "url(/assets/background_04.jpg)",
+       "url(/assets/background_05.jpg)",
+       "url(/assets/background_06.jpg)"
     ];
 
     vm.slide = slides[0]; 

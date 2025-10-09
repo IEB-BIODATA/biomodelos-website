@@ -123,7 +123,7 @@ paths:
                   example: cc-zero
                 atlas_agreement:
                   type: boolean
-                  description: "Accept or deny the publishing of the model in the Atlas of Biodiversity of Colombia (más información: http://biomodelos.humboldt.org.co/publicacion.pdf)"
+                  description: "Accept or deny the publishing of the model in Biomodelos Chile (más información: http://biomodelos.ieb-chile.cl/docs/publicacion.pdf)"
                   example: true
                 model:
                   type: string

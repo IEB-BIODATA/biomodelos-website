@@ -34,7 +34,7 @@ es:
       amphibians: "ANFIBIOS"
       fish: "PECES"
       invertebrates: "INVERTEBRADOS"
-      plants: "PLANTAS"
+      plants: "PLANTAS INVASORAS"
       consult:
         title: "consulta"
         text_1: "Ingresa directamente al buscador de BioModelos el nombre científico de la especie de tu interés para consultar su mapa de distribución en el visor. Allí podrás consultar las hipótesis de distribución disponibles para la especie y que calificación les han dado otros usuarios, así como algunas estadísticas sobre el rango de la especie."
@@ -442,7 +442,7 @@ es:
     publish:
       title: "Publica tu mapa"
       text_1: "Para publicar un modelo de distribución en BioModelos, sigue los siguientes pasos"
-      step_1_html: Lee la <a href="/publicacion.pdf" target="_blank">guía de publicación</a>
+      step_1_html: Lee la <a href="/docs/publicacion.pdf" target="_blank">guía de publicación</a>
       step_2_1: "Selecciona una"
       step_2_2: "licencia de uso CC"
       step_2_3: "para los modelos"
@@ -496,8 +496,7 @@ es:
       success_notice: "La publicación se ha realizado con éxito."
     about_us:
       text_1_html: >
-        BioModelos es una herramienta digital que permite la <b>comunicación entre expertos</b> en biodiversidad para el desarrollo de modelos de distribución de las especies existentes en Colombia de forma colaborativa y abierta.</br></br>
-        Esta iniciativa surge con el fin de acercar a investigadores, instituciones gubernamentales, ONGs y ciudadanos, a una <b>información precisa y validada</b> por expertos sobre la distribución de especies en Colombia, que sirva como referencia para estudios y la toma de decisiones sobre biodiversidad.
+        BioModelos es una herramienta digital diseñada para promover la colaboración entre expertos en biodiversidad en el desarrollo de modelos de distribución de especies de manera abierta, participativa y transparente. Originada en Colombia, esta iniciativa busca integrar a investigadores, instituciones gubernamentales, organizaciones no gubernamentales y ciudadanos en la construcción colectiva de información validada científicamente sobre la distribución de las especies, fortaleciendo así la base de conocimiento necesaria para la investigación, la gestión ambiental y la toma de decisiones en conservación. En Chile, el equipo BioData del Instituto de Ecología y Biodiversidad ha implementado BioModelos-CL, una adaptación de la plataforma orientada a activar una comunidad de especialistas dedicada al desarrollo y validación de modelos de distribución de especies presentes en el territorio nacional, fomentando la colaboración científica y la interoperabilidad de datos en el país.
       team: "equipo actual"
       productowner: "Product Owner"
       developer: "Desarrollo Informático"
@@ -708,7 +707,7 @@ es:
       general: "General"
       sign_up: "Registro"
       publish: "Publicación"
-      general_text: "El uso que haga de BioModelos (biomodelos.humboldt.org.co), en cualquier forma, consultando o complementando su contenido, constituye la aceptación de los siguientes Términos y Condiciones, los cuales se hacen efectivos a partir de la fecha en la que ingrese al sitio indicado."
+      general_text: "El uso que haga de BioModelos, en cualquier forma, consultando o complementando su contenido, constituye la aceptación de los siguientes Términos y Condiciones, los cuales se hacen efectivos a partir de la fecha en la que ingrese al sitio indicado."
       general_1_text: "Este acuerdo de usuario establece los términos y condiciones de una licencia para que usted utilice la plataforma web BioModelos y la información contenida en ella. Para los propósitos del presente acuerdo, la información de BioModelos comprende la visualización de registros biológicos a través del visor geográfico de la plataforma, los modelos de distribución de especies desarrollados a partir de dichos registros y las estadísticas e indicadores calculados a partir de los modelos. Al acceder y/o usar BioModelos, se presume que usted ha leído, aceptado y está de acuerdo con cumplir todos los términos y condiciones de este acuerdo de usuario. Los derechos y obligaciones relacionados con el uso de BioModelos de conformidad con este acuerdo de usuario son personales y no son transferibles a persona natural o jurídica alguna. Eventualmente, estos términos y condiciones de uso de BioModelos pueden ser modificados, lo cual quedará registrado en la presente página. En consecuencia es su responsabilidad revisar y cumplir los términos y condiciones establecidos, siempre que acceda o use BioModelos."
       general_2_title: "Derechos de autor y propiedad intelectual"
       general_2_text_html: >

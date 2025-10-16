@@ -34,7 +34,7 @@ en:
       amphibians: "AMPHIBIANS"
       fish: "FISHES"
       invertebrates: "INVERTEBRATES"
-      plants: "PLANTS"
+      plants: " NON-NATIVE PLANTS"
       consult:
         title: "query"
         text_1: "Enter directly to the BioModelos search engine the scientific name of the species of your interest to consult its distribution area in the viewer. You will find the distribution hypotheses available for the species and the rating other users gave to those, as well as some statistics about the species range."
@@ -442,7 +442,7 @@ en:
     publish:
       title: "Publish your map"
       text_1: "To publish a distribution model in BioModelos, follow the next steps"
-      step_1_html: Read the <a href="/publicacion.pdf" target="_blank"> publication guide </a>
+      step_1_html: Read the <a href="/docs/publicacion.pdf" target="_blank"> publication guide </a>
       step_2_1: "Select one"
       step_2_2: "CC user license"
       step_2_3: "for models"
@@ -496,8 +496,7 @@ en:
       success_notice: "Publication has been successful."
     about_us:
       text_1_html: >
-        BioModelos is a digital tool that allows <b>communication between experts</b> in biodiversity for the development of models of distribution of the existing species in Colombia in a collaborative and open manner.</br></br>
-        This initiative arises in order to bring researchers, government institutions, NGOs and citizens, an <b>accurate and validated information</b> by experts on the distribution of species in Colombia, that serves as reference for studies and decisions making on biodiversity.
+        BioModelos is a digital tool designed to promote collaboration among biodiversity experts in the development of species distribution models in an open, participatory, and transparent manner. Originally developed in Colombia, this initiative seeks to bring together researchers, government institutions, non-governmental organizations, and citizens in the collective construction of scientifically validated information on species distributions, thereby strengthening the knowledge base needed for research, environmental management, and conservation decision-making. In Chile, the BioData team of the Institute of Ecology and Biodiversity has implemented BioModelos-CL, an adaptation of the platform aimed at activating a community of specialists dedicated to developing and validating distribution models for species occurring within the national territory, fostering scientific collaboration and data interoperability across the country.
       team: "current team"
       productowner: "Product Owner"
       developer: "Software Development"
@@ -708,7 +707,7 @@ en:
       general: "General"
       sign_up: "Registration"
       publish: "Publication"
-      general_text: "Your use of BioModelos (biomodelos.humboldt.org.co), in any way, consulting or complementing its content, constitutes acceptance of the following Terms and Conditions, which become effective as of the date on which you enter to the indicated site."
+      general_text: "Your use of BioModelos, in any way, consulting or complementing its content, constitutes acceptance of the following Terms and Conditions, which become effective as of the date on which you enter to the indicated site."
       general_1_text: "This user agreement establishes the terms and conditions of a license for you to use the BioModelos web platform and the information contained therein. For the purposes of this agreement, the information of BioModelos includes the visualization of biological records through the geographic viewer of the platform, the distribution models of species developed from these records and the statistics and indicators calculated from the models. By accessing and/or using BioModelos, it is presumed that you have read, accepted and agree to comply with all the terms and conditions of this user agreement. The rights and obligations related to the use of BioModelos in accordance with this user agreement are personal and are not transferable to any natural or legal person. Eventually, these terms and conditions of use of BioModelos may be modified, which will be recorded on this page. Consequently, it is your responsibility to review and comply with the established terms and conditions, provided that you access or use BioModelos."
       general_2_title: "Copyright and intellectual property"
       general_2_text_html: >

@@ -112,6 +112,11 @@ var _BioModelosVisorModule = function() {
       transparent: true,
       layers: 'unidades_analisis:GDBIDEAM.ZONIFICACION_HIDROGRAFICA_2013'
     });
+    var pisos_vegetacionales_2017 = new L.tileLayer.wms('http://geoservicios.ieb-chile.cl/geoserver/Historicos/wms', {
+      format: 'image/png',
+      transparent: true,
+      layers: 'Historicos:l_pisosvegetacionalespliscoff_20250320052141'
+    });
 
     var	baseLayers = {
       "Google Terrain": googleTerrain,
@@ -120,6 +125,7 @@ var _BioModelosVisorModule = function() {
     };
 
     var overlays = {
+      "Pisos Vegetacionales 2017 (Pliscoff)": pisos_vegetacionales_2017
       /*"Páramos (2016)": paramos_fondo_2016,
       "Ecosistemas generales (Etter)" : ecosistemas_etter,
       "Bosque seco tropical" : bosque_seco,
